@@ -847,7 +847,11 @@ core contributor</a>.
       <div class="footer__logo">
         <a target="_blank" href="https://developers.google.com/"><img class="footer__logo__img" src="/assets/images/google-developers-lockup-color.svg" alt="Google Developers logo"></a>
       </div>
-      <span class="footer__copyright">© 2021 Google, Inc. All Rights Reserved</span>
+      <span class="footer__copyright">© <span id="spanYear"></span> Google, Inc. All Rights Reserved</span>
+      <script type="text/javascript">
+        var date = new Date().getFullYear();
+        document.getElementById("spanYear").innerHTML = date;
+      </script>
       <nav>
         <ul>
           <li><a target="_blank" href="https://www.google.com/policies/terms/">Terms</a></li>
