@@ -14,7 +14,7 @@
     "concat-with-sourcemaps": ">=1.0.6",
     "fstream": ">=1.0.12",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^3.2.0",
     "gulp-plumber": "^1.2.0",
